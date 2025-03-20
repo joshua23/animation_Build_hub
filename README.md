@@ -1,15 +1,12 @@
-# ElephantDash - SVG动画构建器
+# ElephantDash - SVG到Lottie动画转换器
 
-将静态SVG图像转换为动态动画，支持Lottie和SVG动画格式。
+将静态SVG图像转换为Lottie动画格式，适用于网页和移动应用。
 
 ## 概述
 
-ElephantDash SVG动画构建器是一个强大的工具，可以将SVG矢量图转换为两种流行的动画格式：
+ElephantDash SVG到Lottie动画转换器是一个专注于将SVG矢量图转换为Lottie JSON动画格式的工具。Lottie是一种高性能的、可在多平台使用的动画格式，被广泛应用于网页和移动应用程序。
 
-1. **Lottie JSON** - 适用于网页和移动应用的高性能动画格式
-2. **SVG SMIL** - 原生SVG动画，无需JavaScript支持
-
-该工具能够解析复杂的SVG图像，识别元素组，并创建流畅的动画。
+该工具能够解析复杂的SVG图像，识别元素组，并创建流畅的Lottie动画。
 
 ## 特性
 
@@ -25,8 +22,8 @@ ElephantDash SVG动画构建器是一个强大的工具，可以将SVG矢量图�
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/ElephantDash.git
-cd ElephantDash
+git clone https://github.com/joshua23/animation_Build_hub.git
+cd animation_Build_hub
 
 # 安装依赖
 pip install -r svg_animator/requirements.txt
@@ -39,9 +36,6 @@ pip install -r svg_animator/requirements.txt
 ```bash
 # 将SVG转换为Lottie JSON
 python svg_animator/animation_builder.py your_image.svg
-
-# 将SVG转换为动画SVG
-python svg_animator/animation_builder.py your_image.svg --format svg
 ```
 
 ### 批量处理
@@ -77,10 +71,10 @@ python svg_animator/animation_builder.py input.svg --config custom_config.json
 ## 系统要求
 
 - Python 3.13
-- 推荐依赖：
-  - svgwrite
-  - svgelements
+- 必需依赖：
   - lottie
+  - svgelements
+  - svgwrite
   - numpy
   - pillow
 
