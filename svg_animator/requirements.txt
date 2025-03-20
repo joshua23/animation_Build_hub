@@ -1,0 +1,6 @@
+svgwrite>=1.4.3
+svgelements>=1.9.0
+lottie>=0.7.0
+pathlib
+numpy>=1.26.0
+pillow>=10.0.0 

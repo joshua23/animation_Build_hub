@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="200.0" version="1.1" width="200.0">
+  <defs>
+    <style type="text/css"><![CDATA[
+        @keyframes move {
+            0% { transform: translate(0, 0); }
+            50% { transform: translate(50px, 20px); }
+            100% { transform: translate(0, 0); }
+        }
+        @keyframes rotate {
+            0% { transform: rotate(0deg); transform-origin: center; }
+            50% { transform: rotate(10deg); transform-origin: center; }
+            100% { transform: rotate(0deg); transform-origin: center; }
+        }
+        @keyframes scale {
+            0% { transform: scale(1); transform-origin: center; }
+            50% { transform: scale(1.1); transform-origin: center; }
+            100% { transform: scale(1); transform-origin: center; }
+        }
+        ]]></style>
+  </defs>
+  <g id="scene">
+    <g id="move_group" style="animation: move 5s ease-in-out infinite;">
+      <g id="group_None"/>
+    </g>
+    <g id="rotate_group" style="animation: rotate 7s ease-in-out infinite;">
+      <g id="group_panda"/>
+    </g>
+    <g id="scale_group" style="animation: scale 4s ease-in-out infinite;">
+      <g id="group_bamboo"/>
+    </g>
+  </g>
+</svg>
